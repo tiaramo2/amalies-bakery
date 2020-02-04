@@ -1,0 +1,596 @@
+a {
+    color: #00a8ec;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #fbb825 ;
+    text-decoration: line-through;
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    color: black;
+}
+
+h6 {
+    color: #fbb825;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+header {
+    background-color: #222222;
+    height: 80px;
+    width: 1340px;
+}
+
+#logo {
+    display: inline-flex;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    float: left;  
+}
+
+.logo-text {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem 0 0 0;
+    align-self: center;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    float: left;
+}
+
+.logo-text span {
+    font-weight: bold!important;   
+}
+
+.logo-text h2{ 
+    margin: 0px;
+    color: white;
+    letter-spacing: -2px;
+    font-weight: normal;
+}
+
+.logo-text h6 {
+    margin: 0px;
+    font-weight: normal;
+}
+
+#main-menu {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 0 20px;
+    align-content: center;
+    text-align: center;
+    padding: 1rem 0 0 10rem;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+}
+
+#main-menu p{
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+.account-menu {
+    float: right;
+    margin: 0;
+    padding: 2rem 1rem 0 0;
+}
+
+.the-good-life h5 {
+    color: black;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    letter-spacing: 8px;
+}
+
+.the-good-life {
+    background-image: url(./images/desktop/desktop-assets_0000s_0011_vishwas-katti-UrQ_BS9bLXQ-unsplash.jpg);
+    background-color: #222;
+    background-blend-mode: lighten;
+    color: white;
+    display: block;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    width: 1140px;
+    padding: 100px;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+}
+
+.the-good-life h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 100px;
+    margin: 0px;
+    color: black;
+}
+
+.the-good-life span {
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 80%;
+    background-color: #222;
+    width: 40px;
+}
+
+.the-good-life p {
+    margin-left: 300px;
+    width: 500px;
+    opacity: 80%;
+    background-color: #222;
+}
+
+#discount {
+    font-family: 'Parisienne', cursive;
+}
+
+#new-member {
+    font-family: 'Parisienne', cursive;
+}
+
+.discount {
+    background-image: url(./images/desktop/desktop-assets_0000s_0014_jannis-brandt-mmsQUgMLqUo-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    width: 570px;
+    height: 250px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+}
+
+.discount h6 {
+    color: white;
+    letter-spacing: 0px;
+    font-weight: normal;
+}
+
+.discount p, .discount h2, .discount h6 {
+    background-color: #222;
+    opacity: 90%;
+}
+
+.discount:hover {
+    opacity: 50%;
+}
+
+.discount span {
+    font-weight: bold;
+    color: #ff006c
+}
+
+.new-member {
+    background-image: url(./images/desktop/desktop-assets_0000s_0007_stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    width: 570px;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+}
+
+.new-member h6 {
+    color: white;
+    letter-spacing: 0px;
+    font-weight: normal;
+}
+
+.new-member p, .new-member h2, .new-member h6 {
+    background-color: #222;
+    opacity: 90%;
+}
+
+.new-member:hover {
+    opacity: 50%;
+}
+
+.new-member span {
+    font-weight: bold;
+    color: #ff006c;
+}
+
+#serving {
+    display: block;
+    text-align: center;
+    ;
+}
+
+#welcome {
+    display: block;
+    text-align: center;
+    width: 700px;
+    margin: auto auto 30px auto;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    
+}
+
+#welcome h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    margin: 10px;
+}
+
+#freeship {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 0 50px 0 250px;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#freeship span {
+    font-weight: bold;
+}
+
+#return {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 0 50px 0 50px;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#return span {
+    font-weight: bold;
+}
+
+#quality {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 0 0 0 50px;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#quality span {
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.new-dessert {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+}
+
+#macaroons {
+    display: block;
+    text-align: center;
+    width: 800px;
+    height: 150px;
+    background-image: url(./images/desktop/macaroons.jpg);
+    margin: 20px 200px;
+}
+
+#macaroons h6{
+    color: black;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    margin: 15px;
+}
+
+#macaroons h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+#fresh-cakes h6{
+    display: block;
+    text-align: center;
+}
+
+#fresh-cakes h1 {
+    font-family: 'Parisienne', cursive;
+    display: block;
+    text-align: center;
+}
+
+#fresh-cakes img{
+    margin-bottom: 100px;
+    background-color: #ededed;
+    border-radius: 3px;
+    padding: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+#fresh-cakes img:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+
+.cupcakes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+}
+
+.double-fudge, .vanilla, .brown-sugar, .birthday {
+    text-align: center;
+    line-height: 1px;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    background-color: white;
+    margin: 5px 10px 100px 10px;
+}
+
+.double-fudge:hover, .vanilla:hover, .brown-sugar:hover, .birthday:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+
+.testimonies {
+    display: block;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    background-image: url(./images/desktop/bkg-bread.jpg);
+    color: white;
+    margin: 0 0 40px 0;
+}
+
+.testimonies h5 {
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    color: #fbb825;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.testimonies span {
+    font-size: 10px;
+    margin: 40px;
+}
+
+#keep-in-touch {
+    display: block;
+    text-align: center;
+    width: 1300px;
+    background-color: #f7f7f7;
+    padding: 1rem;
+    margin: auto;
+}
+
+#contact {
+    margin: 50px 0 50px 200px;
+    display: block;
+    text-align: center;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    background-color: whitesmoke;
+    border: 1px solid slategray;
+    width: 900px;
+    color: gray;
+    text-decoration: underline;
+}
+
+#contact p {
+    text-decoration: underline;
+}
+
+#name, #email, #phone {
+    display: inline;
+    padding: 10px;
+}
+
+#name:hover, #email:hover, #phone:hover, #message:hover {
+    opacity: 30%;
+}
+
+.location {
+    background-image: url(./images/desktop/bkg-baked-goods.png);
+    background-color: #222;
+    background-blend-mode: lighten;
+    padding: 70px 0 200px 0;
+    color: white;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+}
+
+.location h1, .location h6 {
+    margin-left: 100px;
+}
+
+.location p {
+    width: 500px;
+    margin-left: 100px;
+}
+
+#map img {
+    float: right;
+    width: 600px;
+    padding: 0 20px 0 0;
+}
+
+.address, .phone, .email {
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    display: block;
+    padding: 0 0 0 100px;
+    width: 500px;
+    line-height: 1;
+    margin: 30px 0;
+}
+
+.address img, .phone img, .email img {
+    float: left;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter {
+    display: block;
+    text-align: center;
+    margin: 30px; 
+}
+
+.newsletter h6 {
+    color: black;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+.newsletter span {
+    text-decoration: underline;
+    color: gray;
+}
+
+.newsletter span:hover {
+    opacity: 30%;
+}
+
+#comment {
+    word-spacing: 0;
+    letter-spacing: 0;
+    background-color: #f7f7f7;
+    height: 400px;
+    padding-left: 100px;
+}
+
+#comment h1 {
+    padding-top: 100px;
+}
+
+#comment img {
+    float: right;
+    width: 570px;
+    height: 390px;
+}
+
+#comment span {
+    color: black
+}
+
+#logo2 {
+    display: inline-flex;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    float: left;
+    padding-left: 100px;
+}
+
+.logo-text2 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem 0 0 0;
+    align-self: center;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+    font-size: 14px ;
+    float: left;
+    width: 325px;
+    line-height: 16px;
+}
+
+.logo-text2 span {
+    font-weight: bold!important;
+}
+
+.logo-text2 h2{ 
+    margin: 0px;
+    color: black;
+    letter-spacing: -2px;
+    font-weight: normal;
+}
+
+.logo-text2 h6 {
+    margin: 0px;
+    font-weight: normal;
+}
+
+.logo-text2 img {
+    width: 10px;
+    height: 10px;
+}
+
+#info {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    width: 200px;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+}
+
+#account {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+}
+
+#insta {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Century Gothic', Helvetica, sans-serif;
+}
+
+#insta img {
+    display: inline-flex;
+    margin: 5px;
+    flex-direction: row;
+    width: 80px;
+    height: 80px;
+}
+
+#insta img:hover {
+    opacity: 50%;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-height: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .header {
+        width: 375;
+    }
+
+
+}
